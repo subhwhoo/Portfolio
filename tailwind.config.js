@@ -17,6 +17,9 @@ module.exports = {
       '9': '40rem',
       '10': '44rem',
       '11': '48rem',
+      '12': '52rem',
+      '13': '56rem',
+      '14': '60rem',
     },
     extend: {
       colors: {
