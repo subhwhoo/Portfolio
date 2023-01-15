@@ -3,10 +3,11 @@ module.exports = {
   content: ['./*.html'],
   theme: {
     spacing: {
-      '0': '0.75',
+      '0': '-1rem',
       '1': '1rem',
       '1.5': '1.5rem',
       '1.75':'1.75rem',
+      '1.9':'1.9rem',
       '2': '8rem',
       '3': '12rem',
       '4': '16rem',
@@ -20,6 +21,10 @@ module.exports = {
       '12': '52rem',
       '13': '56rem',
       '14': '60rem',
+      '15': '64rem',
+    '16': '68rem',
+    '18': '72rem',
+    '20': '76rem',
     },
     extend: {
       colors: {
