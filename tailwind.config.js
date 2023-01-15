@@ -2,6 +2,19 @@
 module.exports = {
   content: ['./*.html'],
   theme: {
+    spacing: {
+      '0': '0.75',
+      '1': '1rem',
+      '1.5': '1.5rem',
+      '2': '8rem',
+      '3': '12rem',
+      '4': '16rem',
+      '5': '24rem',
+      '6': '28rem',
+      '7': '32rem',
+      '8': '36rem',
+      '9': '40rem',
+    },
     extend: {
       colors: {
         herobg:'#011638'
