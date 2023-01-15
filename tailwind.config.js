@@ -6,6 +6,7 @@ module.exports = {
       '0': '0.75',
       '1': '1rem',
       '1.5': '1.5rem',
+      '1.75':'1.75rem',
       '2': '8rem',
       '3': '12rem',
       '4': '16rem',
@@ -14,6 +15,8 @@ module.exports = {
       '7': '32rem',
       '8': '36rem',
       '9': '40rem',
+      '10': '44rem',
+      '11': '48rem',
     },
     extend: {
       colors: {
