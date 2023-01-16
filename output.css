@@ -559,6 +559,11 @@ video {
   margin-bottom: 1rem;
 }
 
+.mx-2 {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
 .mb-2\.5 {
   margin-bottom: 2rem;
 }
@@ -645,6 +650,10 @@ video {
 
 .w-7 {
   width: 32rem;
+}
+
+.w-8 {
+  width: 36rem;
 }
 
 .cursor-pointer {
