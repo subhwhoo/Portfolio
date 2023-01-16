@@ -579,12 +579,16 @@ video {
   margin-top: 8rem;
 }
 
-.mb-1\.75 {
-  margin-bottom: 1.75rem;
+.mb-1\.5 {
+  margin-bottom: 1.5rem;
 }
 
 .mb-1 {
   margin-bottom: 1rem;
+}
+
+.mb-1\.75 {
+  margin-bottom: 1.75rem;
 }
 
 .mt-1\.75 {
@@ -738,8 +742,8 @@ video {
   padding-top: 1rem;
 }
 
-.pb-2\.7 {
-  padding-bottom: 4rem;
+.pb-2\.8 {
+  padding-bottom: 6rem;
 }
 
 .pb-2 {
@@ -903,7 +907,8 @@ video {
 /* Pre Loader */
 
 #loading {
-  background: #fff url('./img/icons/animation_300_lcz697u2.gif') no-repeat fixed center;
+  background: #fff url('./img/icons/animation_300_lcz697u2.gif') no-repeat center;
+  position: fixed;
   z-index: 99999;
 }
 
@@ -949,12 +954,16 @@ video {
     margin-right: auto;
   }
 
-  .md\:mt-2\.7 {
-    margin-top: 4rem;
+  .md\:mt-2\.8 {
+    margin-top: 6rem;
   }
 
   .md\:mt-2 {
     margin-top: 8rem;
+  }
+
+  .md\:mt-2\.9 {
+    margin-top: 10rem;
   }
 
   .md\:h-screen {

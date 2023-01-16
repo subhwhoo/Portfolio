@@ -57,7 +57,8 @@
 
   #loading {
  
-    background: #fff url('./img/icons/animation_300_lcz697u2.gif') no-repeat fixed center;
+    background: #fff url('./img/icons/animation_300_lcz697u2.gif') no-repeat center;
+    position: fixed;
     z-index: 99999;
 
   }
