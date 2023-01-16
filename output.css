@@ -961,6 +961,12 @@ video {
   transition-duration: 150ms;
 }
 
+.hover\:transition-shadow:hover {
+  transition-property: box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .hover\:ease-linear:hover {
   transition-timing-function: linear;
 }
