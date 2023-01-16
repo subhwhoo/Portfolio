@@ -205,39 +205,23 @@
     <!-- contact ME -->
     <div class="flex flex-row items-center justify-center">
       <div class="flex flex-col">
-        <label for="fname">Name</label><br />
-        <input
-          type="text"
-          name="fname"
-          class="border-2 rounded-md md:w-8 w-4.5 h-1.75 p-1.25 px-0 inline-block"
-          placeholder="Enter your name"
-          id=""
-        /><br />
-        <label for="fname">Email</label><br />
-        <input
-          type="text"
-          name="fname"
-          class="border-2 rounded-md md:w-8 w-4.5 h-1.75 p-1.25 px-0 inline-block"
-          placeholder="Enter your email address"
-          id=""
-        /><br />
-        <label for="fname">Message</label><br />
-        <textarea
-          name=""
-          id=""
-          cols="20"
-          rows="5"
-          class="border-2 p-1 rounded-md"
-          placeholder="Enter a message"
-        ></textarea>
+        <label for="text">Full Name</label>
+        <input placeholder="Your Name" class="input md:w-8 w-4.5 drop-shadow-lg text-white" name="text" type="text">
+        <br>
+        <label for="text">Email</label>
+        <input placeholder="Your Email" class="input md:w-8 w-4.5 text-white drop-shadow-lg" name="text" type="name">
         <br />
-        <button>
-          <a
-            href="#"
-            class="mb-2.5 inline-block bg-cyan-800 py-0.5 px-1.9 rounded-full text-white hover:scale-110 hover:transition-all"
-            ><h1>Submit</h1></a
-          >
+        <label for="fname">Message</label>
+        <!-- <input placeholder="Your Message" class="input md:w-8 w-4.5 input-msg text-white" name="text" type="email"> -->
+        <textarea name="" id="" cols="20" rows="5" class="input input-msg text-white drop-shadow-lg" placeholder="Your Message"></textarea>
+        <br />
+        <!-- button -->
+        <div class="flex items-center justify-center mb-2.7 mt-2.5">
+          <button class="button w-3 flex items-center justify-center">
+            Submit :)
         </button>
+        </div>
+
       </div>
     </div>
     <footer class="bg-slate-100">

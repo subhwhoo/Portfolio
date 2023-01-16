@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* inspired form gumroad website */
+.button {
+    --bg: #000;
+    --hover-bg: #ff90e8;
+    --hover-text: #000;
+    color: #fff;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem,-0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+  
+  .input {
+    background-color: #212121;
+    /* max-width: 190px; */
+    height: 45px;
+    padding: 18px;
+    margin-top: 4px;
+    /* text-align: center; */
+    border: 2px solid white;
+    border-radius: 5px;
+    display: inline-block;
+    /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+  }
+  .input-msg{
+    height: 15rem;
+  }
+  
+  .input:focus {
+    color: rgb(0, 255, 255);
+    background-color: #212121;
+    outline-color: rgb(0, 255, 255);
+    box-shadow: -3px -3px 15px rgb(0, 255, 255);
+    transition: .1s;
+    transition-property: box-shadow;
+  }
