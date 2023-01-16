@@ -51,3 +51,13 @@
     transition: .1s;
     transition-property: box-shadow;
   }
+
+
+  /* Pre Loader */
+
+  #loading {
+ 
+    background: #fff url('./img/icons/animation_300_lcz697u2.gif') no-repeat fixed center;
+    z-index: 99999;
+
+  }

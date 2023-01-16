@@ -541,6 +541,14 @@ video {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
 .m-1\.5 {
   margin: 1.5rem;
 }
@@ -599,10 +607,6 @@ video {
   box-sizing: border-box;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
 .flex {
   display: flex;
 }
@@ -645,6 +649,10 @@ video {
 
 .w-1 {
   width: 1rem;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .cursor-pointer {
@@ -836,6 +844,10 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* inspired form gumroad website */
 
 .button {
@@ -886,6 +898,13 @@ video {
   box-shadow: -3px -3px 15px rgb(0, 255, 255);
   transition: .1s;
   transition-property: box-shadow;
+}
+
+/* Pre Loader */
+
+#loading {
+  background: #fff url('./img/icons/animation_300_lcz697u2.gif') no-repeat fixed center;
+  z-index: 99999;
 }
 
 .hover\:scale-110:hover {

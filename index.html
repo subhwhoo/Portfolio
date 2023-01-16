@@ -13,7 +13,8 @@
       rel="stylesheet"
     />
   </head>
-  <body class="box-border font-worksans">
+  <body class="box-border font-worksans" onload="myFunction()">
+    <div id="loading" class="h-screen w-full"></div>
     <header class="bg-slate-100 m-1.5">
       <!-- 100vh -->
       <div class="md:h-screen mb-2.5 h-screen w-full">
@@ -268,5 +269,12 @@
         © 2023 Subham Chowdhury · UI/UX Designer
       </h1>
     </footer>
+    <script>
+      // myFunction()
+      var preloader = document.getElementById('loading');
+      function myFunction() {
+        preloader.style.display = 'none';
+      }
+    </script>
   </body>
 </html>
