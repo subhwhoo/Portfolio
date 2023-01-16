@@ -655,6 +655,14 @@ video {
   width: 8rem;
 }
 
+.w-1\.5 {
+  width: 1.5rem;
+}
+
+.w-1 {
+  width: 1rem;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -965,6 +973,10 @@ video {
 
   .md\:w-18 {
     width: 72rem;
+  }
+
+  .md\:w-8 {
+    width: 36rem;
   }
 
   .md\:grid-cols-2 {
