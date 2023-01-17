@@ -28,13 +28,13 @@
   }
   
   .input {
-    background-color: #212121;
+    background-color: #fff;
     /* max-width: 190px; */
     height: 45px;
     padding: 18px;
     margin-top: 4px;
     /* text-align: center; */
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 5px;
     display: inline-block;
     /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
@@ -44,10 +44,10 @@
   }
   
   .input:focus {
-    color: rgb(0, 255, 255);
-    background-color: #212121;
+    /* color: rgb(0, 255, 255); */
+    background-color: #effffd;
     outline-color: rgb(0, 255, 255);
-    box-shadow: -3px -3px 15px rgb(0, 255, 255);
+    box-shadow: -3px -3px 15px rgb(212, 255, 255);
     transition: .1s;
     transition-property: box-shadow;
   }

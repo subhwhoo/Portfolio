@@ -836,6 +836,11 @@ video {
   color: rgb(30 58 138 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -889,13 +894,13 @@ video {
 }
 
 .input {
-  background-color: #212121;
+  background-color: #fff;
   /* max-width: 190px; */
   height: 45px;
   padding: 18px;
   margin-top: 4px;
   /* text-align: center; */
-  border: 2px solid white;
+  border: 2px solid black;
   border-radius: 5px;
   display: inline-block;
   /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
@@ -906,10 +911,10 @@ video {
 }
 
 .input:focus {
-  color: rgb(0, 255, 255);
-  background-color: #212121;
+  /* color: rgb(0, 255, 255); */
+  background-color: #effffd;
   outline-color: rgb(0, 255, 255);
-  box-shadow: -3px -3px 15px rgb(0, 255, 255);
+  box-shadow: -3px -3px 15px rgb(212, 255, 255);
   transition: .1s;
   transition-property: box-shadow;
 }
@@ -937,10 +942,6 @@ video {
 .hover\:border-black:hover {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.hover\:border-opacity-80:hover {
-  --tw-border-opacity: 0.8;
 }
 
 .hover\:drop-shadow-lg:hover {
