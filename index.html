@@ -26,7 +26,7 @@
           </div>
           <ul class="flex gap-1.5 my-1 text-lg relative">
             <li class="cursor-pointer">
-              <a href="#about" class="hover:border-b-2 hover:border-black">About</a>
+              <a href="#about" class="hover:border-b-2  hover:border-black">About</a>
             </li>
             <li class="cursor-pointer">
               <a href="#work" class="hover:border-b-2 hover:border-black">Work</a>
@@ -205,43 +205,48 @@
       </h1>
     </div>
     <!-- contact ME -->
-    <div class="flex flex-row items-center justify-center" >
-      <div class="flex flex-col">
-        <label for="text">Full Name</label>
-        <input
-          placeholder="Your Name"
-          class="input md:w-9 w-4.5 drop-shadow-lg text-white"
-          name="text"
-          type="text"
-        />
-        <br />
-        <label for="text">Email</label>
-        <input
-          placeholder="Your Email"
-          class="input md:w-9 w-4.5 text-white drop-shadow-lg"
-          name="text"
-          type="name"
-        />
-        <br />
-        <label for="fname">Message</label>
-        <!-- <input placeholder="Your Message" class="input md:w-8 w-4.5 input-msg text-white" name="text" type="email"> -->
-        <textarea
-          name=""
-          id=""
-          cols="20"
-          rows="5"
-          class="input input-msg text-white drop-shadow-lg"
-          placeholder="Your Message"
-        ></textarea>
-        <br />
-        <!-- button -->
-        <div class="flex items-center justify-center mb-2.7 mt-2.5">
-          <button class="button w-3 flex items-center justify-center">
-            Submit :)
-          </button>
+    <form action="mailto:uiuxsubham@gmail.com" method="post" enctype="text/plain">
+      <div class="flex flex-row items-center justify-center" >
+        <div class="flex flex-col">
+          <label for="text">Full Name</label>
+          <input
+            placeholder="Your Name"
+            class="input md:w-9 w-4.5 drop-shadow-lg text-white"
+            name="Full name"
+            type="text"
+            required
+          />
+          <br />
+          <label for="text">Email</label>
+          <input
+            placeholder="Your Email"
+            class="input md:w-9 w-4.5 text-white drop-shadow-lg"
+            name="Contact Email"
+            type="name"
+            required
+          />
+          <br />
+          <label for="fname">Message</label>
+          <!-- <input placeholder="Your Message" class="input md:w-8 w-4.5 input-msg text-white" name="text" type="email"> -->
+          <textarea
+            name="Message"
+            id=""
+            cols="20"
+            required
+            rows="5"
+            class="input input-msg text-white drop-shadow-lg"
+            placeholder="Your Message"
+          ></textarea>
+          <br />
+          <!-- button -->
+          <div class="flex items-center justify-center mb-2.7 mt-2.5">
+            <button class="button w-3 flex items-center justify-center" type="submit">
+              Submit :)
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+    </form>
     <footer class="bg-slate-100 ">
       <!-- links -->
       <div class="flex gap-1 justify-center items-center pt-2.5 mb-2.5">
@@ -295,5 +300,28 @@
         preloader.style.display = 'none';
       }
     </script> -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyAUD4cwlH0JLlpInNh9rgFttq7SH4nvAmw",
+        authDomain: "portfolio-d0898.firebaseapp.com",
+        projectId: "portfolio-d0898",
+        storageBucket: "portfolio-d0898.appspot.com",
+        messagingSenderId: "666806122902",
+        appId: "1:666806122902:web:78cd19202ea6dd22e585b7",
+        measurementId: "G-CY1E8RVK0X"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
