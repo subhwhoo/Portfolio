@@ -742,6 +742,21 @@ video {
   padding-right: 1rem;
 }
 
+.px-2 {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.px-0\.5 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-0 {
+  padding-left: 0.75;
+  padding-right: 0.75;
+}
+
 .pt-1 {
   padding-top: 1rem;
 }
